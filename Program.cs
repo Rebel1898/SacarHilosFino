@@ -14,7 +14,7 @@ namespace SeleniumRPAChallenge
         static void Main(string[] args)
         {
             string Base = Directory.GetCurrentDirectory()+"\\";
-            int pagina = 10739;
+            int pagina = 1;
             string ruta = Base + @"log_Post_from_page_" + pagina +"_"+ DateTime.Now.ToString("yyyyMMdd_hhmm") +".html";
             string ruta_videos = Base + @"log_videos_from_page_" + pagina + "_" + DateTime.Now.ToString("yyyyMMdd_hhmm") + ".html";
             string title = "<li>peperoni</li>";
